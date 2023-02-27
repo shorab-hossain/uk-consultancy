@@ -1,0 +1,22 @@
+.service-title {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px 30px;
+  border-bottom: 5px solid rgba(0, 77, 169, 1);
+  border-radius: 30px;
+  text-align: center;
+}
+.short-image {
+  margin-right: 10px;
+}
+.content-service {
+  margin-left: 14px;
+  padding: -12px;
+  line-height: 24px;
+}
+.service-heading {
+  margin-bottom: 3px;
+}
+.btn-service {
+  margin: 10px;
+}

@@ -1,0 +1,44 @@
+.aboutUs {
+  background-color: #ffff;
+  padding: 40px 0px;
+}
+.about-title {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 0px 30px;
+  border-bottom: 5px solid rgba(0, 77, 169, 1);
+  border-radius: 30px;
+  text-align: center;
+}
+.about-img {
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 136px;
+  margin-top: 60px;
+}
+.service-icon {
+  padding: 20px 5px;
+}
+.learn-link {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin-top: 0px !important;
+  text-decoration: none;
+}
+.learn-content {
+  margin-right: 6px;
+}
+.card-main {
+  transition: all 0.3s;
+}
+.card-main:hover {
+  border: 2px solid #e7500e;
+}
+@media screen and (min-width: 480px) {
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

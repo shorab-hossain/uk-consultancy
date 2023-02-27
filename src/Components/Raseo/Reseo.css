@@ -1,0 +1,11 @@
+.raseo-main {
+  background-color: rgba(0, 77, 169, 1) !important;
+}
+.raseo-img {
+  width: 150px;
+  padding: 10px 0px;
+}
+.small-title {
+  color: #ffff;
+  font-weight: 700;
+}

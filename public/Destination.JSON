@@ -1,0 +1,32 @@
+[
+  {
+    "key": 1,
+    "img": "https://i.ibb.co/FDmQF2f/canada-flag.png",
+    "title": "Canada"
+  },
+  {
+    "key": 2,
+    "img": "https://i.ibb.co/Wz4Rrk6/French-flag.png",
+    "title": "French"
+  },
+  {
+    "key": 3,
+    "img": "https://i.ibb.co/DrWqHMN/usaflag.png",
+    "title": "USA"
+  },
+  {
+    "key": 4,
+    "img": "https://i.ibb.co/D5vBQmT/italy-flag.png",
+    "title": "Italy"
+  },
+  {
+    "key": 5,
+    "img": "https://i.ibb.co/gV0291k/london-flag.png",
+    "title": "London"
+  },
+  {
+    "key": 7,
+    "img": "https://i.ibb.co/dKsDTb1/sweden-flag.png",
+    "title": "Sweden"
+  }
+]
