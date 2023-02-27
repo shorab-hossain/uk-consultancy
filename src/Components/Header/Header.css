@@ -13,12 +13,14 @@
   width: 50%;
   top: 50px;
 }
+
 .header-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 50px;
   color: #ffff;
   margin-bottom: 20px;
+  z-index: 2;
 }
 .header-small {
   color: #ffff;
@@ -36,7 +38,7 @@
   transform: all 0.3s;
 }
 .btn-form:hover {
-  background-color: red;
+  background-color: #e7500e;
   color: #fff;
 }
 /* responsive-design */

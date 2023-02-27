@@ -10,7 +10,7 @@ const Header = () => {
                     </div>
                     {/* second-section */}
                     <div className='col-12 col-md-6 col-sm-12 col-lg-6 second-header '>
-                      <div>
+                      <div >
                         <h4 className='header-title'>Your journey start with us! Inspiring International Students Since 1999</h4>
                             {/* <p className='header-small'>Eduplan Education Can Fulfil Your International Education Dream
                             As Per Your Best Fit with world top universities and collages.</p> */}

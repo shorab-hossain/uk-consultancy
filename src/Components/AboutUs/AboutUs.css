@@ -31,10 +31,9 @@
 }
 .card-main {
   transition: all 0.3s;
+  border: 2px solid #e7500e !important;
 }
-.card-main:hover {
-  border: 2px solid #e7500e;
-}
+
 @media screen and (min-width: 480px) {
   .aboutUs {
     display: flex;

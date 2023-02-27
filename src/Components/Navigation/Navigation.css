@@ -2,7 +2,6 @@
   background-color: rgba(0, 77, 169, 1) !important;
 }
 .navbar {
-  position: sticky;
 }
 .navbar-menu li {
   margin-right: 10px;
@@ -30,6 +29,7 @@
 .navbar-menu li:hover .dropdown-menu {
   display: block;
   position: absolute;
+  z-index: 1 !important;
   left: 0;
   top: 100%;
   background-color: rgb(15, 14, 14);
@@ -38,13 +38,16 @@
 .dropdown-menu ul {
   display: block;
   margin: 10px;
+  z-index: 1;
 }
 .dropdown-menu ul li {
   width: 250px;
   padding: 10px;
+  list-style: none;
 }
 .dropdown-menu ul li a {
   color: #ffff;
+  list-style: none;
 }
 /* search-icon */
 .search-icon {

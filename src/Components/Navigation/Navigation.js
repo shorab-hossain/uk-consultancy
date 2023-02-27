@@ -9,7 +9,8 @@ const Navigation = () => {
     return (
         <div className=' full-navbar' >
              <nav className="navbar navbar-expand-lg navbar-light container text-light">
-            <a className="navbar-brand text-light fw-bold" href="#">UK Education is UKEC</a>
+             <img width={"100px"} src="https://i.ibb.co/CQSqWxB/logo-Image.png" alt=""/>
+            <a className="navbar-brand text-light fw-bold" href="#"> UKEC</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

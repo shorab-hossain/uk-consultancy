@@ -1,0 +1,11 @@
+.partnarship-title {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px 30px;
+  border-bottom: 5px solid rgba(0, 77, 169, 1);
+  border-radius: 30px;
+  text-align: center;
+}
+.university-logo {
+  margin-right: 15px;
+}

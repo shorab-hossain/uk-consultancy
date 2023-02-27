@@ -17,3 +17,10 @@
 .buttlet li a:hover {
   border-bottom: 1px solid gray;
 }
+.icon-footer {
+  margin-right: 5px;
+}
+button.scroll-to-top {
+  padding: 6px;
+  border-radius: 20px;
+}
