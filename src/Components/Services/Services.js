@@ -5,10 +5,10 @@ import "./Services.css";
 const Services = () => {
     return (
         <>
-            <div className='container mt-5 '>
+            <div className='container mt-3'>
             <h1 className='text-center align-center mb-3 service-title'>Articles</h1>
             <div >
-               <div className='d-flex justify-content-center mt-5'>
+               <div className=' article-responsive'>
                     <div className='col-12 col-md-4 col-lg-4 col-sm-12 first-article'>
                     <div className="card ">
                     <img width={"267px"} src={img1} className="card-img-top" alt="..."/>
@@ -21,9 +21,9 @@ const Services = () => {
                     </div>
                     <div className='col-12 col-md-4 col-lg-4 col-sm-12 second-article'>
                         {/* first-card */}
-                        <div className='d-flex justify-content-between align-items-center mb-2 px-2'>
+                        <div className='single-article1 mb-2 px-2'>
                             <div>
-                                <img className='img-fluid short-image' width={"150px"} src={img1} alt=""/>
+                                <img className='img-fluid short-image' width={"120px"} src={img1} alt=""/>
                             </div>
                             <div className='content-service'>
                                 <p className='service-heading'>Weekly University News</p>
@@ -31,9 +31,9 @@ const Services = () => {
                                 <p>2022-08-11</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-between align-items-center mb-2 px-2'>
+                        <div className='single-article mb-2 px-2'>
                             <div>
-                                <img className='img-fluid short-image' width={"150px"} src={img1} alt=""/>
+                                <img className='img-fluid short-image' width={"120px"} src={img1} alt=""/>
                             </div>
                             <div className='content-service'>
                                 <p className='service-heading'>Weekly University News</p>
@@ -41,9 +41,9 @@ const Services = () => {
                                 <p>2022-08-11</p>
                             </div>
                         </div>
-                        <div className='d-flex justify-content-between align-items-center px-2'>
+                        <div className='single-article px-2'>
                             <div>
-                                <img className='img-fluid short-image' width={"150px"} src={img1} alt=""/>
+                                <img className='img-fluid short-image' width={"120px"} src={img1} alt=""/>
                             </div>
                             <div className='content-service'>
                                 <p className='service-heading'>Weekly University News</p>

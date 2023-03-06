@@ -2,13 +2,12 @@ import React from 'react';
 import { FaSearch } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
 import { RxSwitch } from "react-icons/rx";
-import { TbWorld } from "react-icons/tb";
 import "./Navigation.css";
 
 const Navigation = () => {
     return (
         <div className=' full-navbar' >
-             <nav className="navbar navbar-expand-lg navbar-light container text-light">
+             <nav className="navbar navbar-expand-lg navbar-light container text-light navbar-style col-sm-12 col-lg-12 col-md-12">
              <img width={"100px"} src="https://i.ibb.co/CQSqWxB/logo-Image.png" alt=""/>
             <a className="navbar-brand text-light fw-bold" href="#"> UKEC</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +61,7 @@ const Navigation = () => {
                 </ul>
                 {/* icon-language-change */}
                <div className='d-flex justify-content-center align-items-center'>
-                <div>
+                <div className='world'>
                 <RxSwitch className='world-icon'>
                         </RxSwitch>
                 </div>
@@ -71,7 +70,7 @@ const Navigation = () => {
                 </div>
                </div>
 
-                <TbWorld className='world-icon'/>
+                {/* <TbWorld className='world'/> */}
                 
             </div>
             {/* search-icon */}

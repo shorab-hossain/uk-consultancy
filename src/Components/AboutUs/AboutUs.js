@@ -13,7 +13,7 @@ AOS.init();
 const AboutUs = () => {
     return (
         <div className='aboutUs' >
-            <div className='d-flex justify-content-center align-content-center container'>
+            <div className='container about-single'>
                 <div className='col-12 col-md-6 col-lg-6 col-sm-12' data-aos="fade-right"
                 data-aos-duration="2000">
                     <h1 className='about-title'>About Us</h1>
@@ -34,7 +34,7 @@ const AboutUs = () => {
             {/* service-section */}
             <div className='main-service container mt-5 mb-5'>
             <div className="row row-cols-1 row-cols-md-3 g-2"   >
-                <div className="col">
+                <div className="col responsive-card">
                     <div className="card card-main" data-aos="fade-right"
                 data-aos-duration="2000">
                     <div className="card-body ">
@@ -47,7 +47,7 @@ const AboutUs = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col" data-aos="fade-right"
+                <div className="col responsive-card" data-aos="fade-right"
                 data-aos-duration="2000">
                     <div className="card card-main" >
                     <div className="card-body">
@@ -60,7 +60,7 @@ const AboutUs = () => {
                     </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col responsive-card">
                     <div className="card card-main">
                     <div className="card-body" data-aos="fade-left"
                 data-aos-duration="2000">

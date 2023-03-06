@@ -4,18 +4,11 @@ import "./Header.css";
 const Header = () => {
     return (
         <section className='main-slider'>
-            <div className='container'>
-                    <div className='col-12 col-md-6 col-sm-12 col-lg-6 first-header'>
-                    
-                    </div>
+            <div className='container slider-head'>
                     {/* second-section */}
                     <div className='col-12 col-md-6 col-sm-12 col-lg-6 second-header '>
                       <div >
                         <h4 className='header-title'>Your journey start with us! Inspiring International Students Since 1999</h4>
-                            {/* <p className='header-small'>Eduplan Education Can Fulfil Your International Education Dream
-                            As Per Your Best Fit with world top universities and collages.</p> */}
-
-                        {/* form-design */}
                         <div className='header-form'>
                             <label htmlFor="" className='text-light'>What subject areas are you interested in?</label>
                                 <select id="select-field" name="subject" form="">
@@ -66,6 +59,11 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
+                {/* second-imgheader */}
+                <div className='col-12 col-md-6 col-sm-12 col-lg-6 first-header'>
+                    <img className='img-fluid header-img' src="https://i.ibb.co/Yk7hjpy/icons8-team-Fc-Lyt7l-W5wg-unsplash-removebg-preview.png" alt="/"/>
+                
+                    </div>
             </div>
         </section>
     );

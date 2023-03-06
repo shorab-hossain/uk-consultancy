@@ -1,8 +1,7 @@
 .full-navbar {
   background-color: rgba(0, 77, 169, 1) !important;
 }
-.navbar {
-}
+
 .navbar-menu li {
   margin-right: 10px;
 }
@@ -98,4 +97,29 @@
 .btn-apply:hover span {
   padding-right: 20px;
   color: #ffff;
+}
+@media screen and (max-width: 600px) {
+  .navbar-menu {
+    text-align: center;
+  }
+  .world {
+    text-align: center !important;
+  }
+  .search-icon {
+    margin: 0 auto !important;
+  }
+  .navbar-style {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar-menu {
+    text-align: center;
+  }
+  .world {
+    text-align: center !important;
+  }
+  .search-icon {
+    margin: 0 auto;
+  }
 }

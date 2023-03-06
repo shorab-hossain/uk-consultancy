@@ -1,3 +1,9 @@
+.about-single {
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+}
+
 .aboutUs {
   background-color: #ffff;
   padding: 40px 0px;
@@ -34,10 +40,21 @@
   border: 2px solid #e7500e !important;
 }
 
-@media screen and (min-width: 480px) {
-  .aboutUs {
+@media screen and (max-width: 600px) {
+  .container.about-single {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column !important;
+  }
+  .about-img {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .responsive-card {
+    margin-bottom: 20px;
+  }
+  .about-title {
+    margin-bottom: 10px;
   }
 }

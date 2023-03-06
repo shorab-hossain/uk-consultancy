@@ -17,7 +17,7 @@ const Partnarship = () => {
         <>
           <div className='container'>
              <h1 className='text-center align-center mb-3 partnarship-title'>Ours Partnarship</h1>
-            <div className='d-flex justify-content-center align-items-center pt-3 pb-3'>
+            <div className="pt-3 pb-3 university-all">
                 <div className='university-logo'>
                     <img src={img1} alt=""/>
                 </div>
@@ -37,7 +37,7 @@ const Partnarship = () => {
                 {/* <div>
                     <img src={img6} alt=""/>
                 </div> */}
-               <div className='d-flex justify-content-center align-item-center pb-4'>
+               <div className='d-flex justify-content-center align-item-center pb-4 university-all'>
                 <div className='university-logo'>
                         <img src={img7} alt=""/>
                     </div>

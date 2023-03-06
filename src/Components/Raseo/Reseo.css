@@ -1,6 +1,12 @@
 .raseo-main {
   background-color: rgba(0, 77, 169, 1) !important;
 }
+.flex-raseo {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
 .raseo-img {
   width: 150px;
   padding: 10px 0px;
@@ -8,4 +14,20 @@
 .small-title {
   color: #ffff;
   font-weight: 700;
+}
+@media screen and (min-width: 600px) {
+  .container.flex-raseo {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container.flex-raseo {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }

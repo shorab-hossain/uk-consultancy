@@ -24,3 +24,11 @@ button.scroll-to-top {
   padding: 6px;
   border-radius: 20px;
 }
+@media screen and (min-width: 600) {
+  .logo-footer {
+    text-align: center;
+  }
+  .buttlet {
+    text-align: center;
+  }
+}

@@ -30,7 +30,7 @@ const TopDestinations = () => {
              <p>We have quality partners in variety of destinations around the globe.</p>
              </div>
             
-            <div className='main-destination '>
+            <div className='main-destination'>
                 {
                     flag.map(singleFlag =><div className="singleFlag" key={singleFlag.key}>
                         <img src={singleFlag.img} alt=""/>
@@ -39,7 +39,7 @@ const TopDestinations = () => {
                 }
             </div>
             {/* student-review */}
-            <div className='mt-5 mb-5'>
+            <div className='mt-4 mb-4'>
                 <h1>What our Students Say</h1>
                     <Swiper
                         pagination={pagination}
@@ -51,97 +51,66 @@ const TopDestinations = () => {
                         className="mySwiper"
                     >
                     <SwiperSlide>
-                        <div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
+                        <div className='slider-responsive'>
+                            <div className='slider-content col-md-6 col-sm-12 col-lg-6 col-12'>
                                <div>
                                <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
                                </div>
                             </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
+                            <div className=' col-md-6 col-sm-12 col-lg-6 col-12'>
+                                <img className='slider-image1' width={"400px"} src={img1} alt=""/>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide> <div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
+                    <SwiperSlide>
+                        <div className='slider-responsive'>
+                            <div className='slider-content col-md-6 col-sm-12 col-lg-6 col-12'>
                                <div>
                                <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
                                </div>
                             </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
+                            <div className=' col-md-6 col-sm-12 col-lg-6 col-12'>
+                                <img className='slider-image1' width={"400px"} src={img1} alt=""/>
                             </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide> <div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='slider-responsive'>
+                            <div className='slider-content col-md-6 col-sm-12 col-lg-6 col-12'>
                                <div>
                                <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
                                </div>
                             </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
+                            <div className=' col-md-6 col-sm-12 col-lg-6 col-12'>
+                                <img className='slider-image1' width={"400px"} src={img1} alt=""/>
                             </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide> <div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='slider-responsive'>
+                            <div className='slider-content col-md-6 col-sm-12 col-lg-6 col-12'>
                                <div>
                                <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
                                </div>
                             </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
+                            <div className=' col-md-6 col-sm-12 col-lg-6 col-12'>
+                                <img className='slider-image1' width={"400px"} src={img1} alt=""/>
                             </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide><div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='slider-responsive'>
+                            <div className='slider-content col-md-6 col-sm-12 col-lg-6 col-12'>
                                <div>
                                <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
                                </div>
                             </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
+                            <div className=' col-md-6 col-sm-12 col-lg-6 col-12'>
+                                <img className='slider-image1' width={"400px"} src={img1} alt=""/>
                             </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide><div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
-                               <div>
-                               <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
-                               </div>
-                            </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
-                            </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide><div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
-                               <div>
-                               <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
-                               </div>
-                            </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
-                            </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide><div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
-                               <div>
-                               <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
-                               </div>
-                            </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
-                            </div>
-                        </div></SwiperSlide>
-                    <SwiperSlide><div className='d-flex justify-content-between align-content-center'>
-                            <div className='slider-content '>
-                               <div>
-                               <p>“I’m thoroughly enjoying studying for my degree in textile design at Birmingham City University. The University offers not only an extremely high standard of teaching, it is also a supportive and friendly environment in which to take my academic career forward and maximise my confidence and potential.”</p>
-                               </div>
-                            </div>
-                            <div>
-                                <img width={"400px"} src={img1} alt=""/>
-                            </div>
-                        </div></SwiperSlide>
+                        </div>
+                    </SwiperSlide>
+               
                 </Swiper>
             </div>
         </div>

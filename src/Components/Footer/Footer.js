@@ -10,7 +10,7 @@ const Footer = () => {
                 <ScrollToTop smooth />
             <div className="container">
                 <div className="row pt-4 text-light pb-5">
-                    <div className="mb-4 mt-4 col-lg-3" style={{color:'#dededebd'}}>
+                    <div className="mb-4 mt-4 col-lg-3 logo-footer" style={{color:'#dededebd'}}>
                     <img className='mb-4 img-fluid' width={"200px"} src="https://i.ibb.co/CQSqWxB/logo-Image.png" alt=""/>
                         <h4><i className="fas fa-phone-volume me-3 fs-4">++0184576821</i></h4>
                         <h4><i className="fas fa-envelope-open-text me-3 "></i>info2121@gmail.com</h4>

@@ -7,7 +7,7 @@ AOS.init();
 
 const StudentReview = () => {
     return (
-        <div className='pb-5 pt-5 container'>
+        <div className='pb-5 pt-3 container'>
             <p className='text-center text-primary fw-bold
             '>FEEDBACKS</p>
             <h1 className='text-center align-center mb-3 consultancy-title'>Our students shared their
@@ -18,8 +18,6 @@ const StudentReview = () => {
                 data-aos-duration="2000">
                     <div className="card video-card" >
                     <div className="card-body ">
-                    {/* <iframe className='video-link' width="420" height="345" src="https://www.youtube.com/embed/=A-rzydB1Luw">
-                    </iframe> */}
                     <iframe className='video-consultancy' width="420" height="345" src="https://www.youtube.com/embed/hOYD_7clhlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     </div>

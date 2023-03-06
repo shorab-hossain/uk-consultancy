@@ -8,7 +8,7 @@ import "./Reseo.css";
 const Raseo = () => {
     return (
         <section className='raseo-main pb-5 pt-5 mb-5'>
-            <div className='container d-flex justify-content-between align-content-center'>
+            <div className='container   flex-raseo'>
                 <div className='col-12 col-md-3 col-lg-3 col-sm-12'>
                     <img className='raseo-img' src={image1} alt=""/>
                     <h4 className='small-title'><span className='text-center'>300k+</span><br/>
